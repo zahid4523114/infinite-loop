@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.header-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/infinite-loop-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-links ul li a:hover {
+  border-bottom: 2px solid orange;
+}
+.text-box {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 13%;
+}
+.text-box h1 {
+  font-size: 40px;
+}
+.button {
+  text-decoration: none;
+  background-color: cornflowerblue;
+  padding: 10px 20px;
+  color: white;
+}
+/* section-2 */
+.middle-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(244, 244, 244);
+  padding: 3% 3%;
+}
+.mid-heading {
+  margin: 0 auto;
+  text-align: center;
+}
+.mid-heading h1 {
+  color: cornflowerblue;
+  font-size: 40px;
+}
+.mid-contents {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+.element-left,
+.element-right {
+  width: 50%;
+}
+.mid-text-box {
+  margin: 20px 20px;
+  text-align: justify;
+}
+.mid-text-box h1 {
+  color: cornflowerblue;
+}
+.mid-text-box p {
+  line-height: 1.5;
+}
+/* section-3*/
+.testimonials {
+  background-image: url(img/infinite-loop-02.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+.test-heading {
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(248, 248, 248);
+}
+.test-heading h1 {
+  font-size: 40px;
+}
+.test-heading p {
+  line-height: 2;
+}
+.profiles-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.profile-section {
+  width: 25%;
+  text-align: justify;
+  margin-left: 6%;
+  margin-bottom: 50px;
+  color: white;
+}
+.profile-section p {
+  line-height: 25px;
+}
+#pro-margin {
+  margin-top: 5%;
+}
+.img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile-section img {
+  border-radius: 50%;
+}
+
+hr {
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 15px;
+  border-color: rgb(214, 214, 214);
+}
+
+/* section-3 */
+.gallery {
+  padding: 5%;
+}
+.g-heading {
+  margin: 0 auto;
+  text-align: center;
+}
+.g-heading h1 {
+  color: cornflowerblue;
+  font-size: 40px;
+}
+.g-heading p {
+  line-height: 2;
+}
+.img-container {
+  display: flex;
+  padding: 2%;
+  width: 100%;
+}
+.g-img {
+  width: 20%;
+  margin-left: 20px;
+}
+.g-img img {
+  width: 100%;
+}
+/* section-4 */
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/infinite-loop-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+}
+.test-heading {
+}
+.contact-box {
+  width: 80%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.input-field {
+  width: 50%;
+}
+input {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  outline: none;
+}
+input::placeholder {
+  color: white;
+}
+textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 100%;
+  outline: none;
+  color: white;
+}
+textarea::placeholder {
+  color: white;
+}
+.C-button {
+  display: block;
+  text-decoration: none;
+  background-color: cornflowerblue;
+  padding: 10px 20px;
+  color: white;
+  width: 200px;
+}
+.contact-info p {
+  color: white;
+  margin-bottom: 50px;
+}
+footer {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(0, 118, 202);
+}
+footer p {
+  font-weight: 500;
+}
